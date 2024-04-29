@@ -1,0 +1,64 @@
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btn-shadow {
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1); 
+}
+
+.shadow-button {
+  position: relative; 
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bg-drk {
+    background-color: #e9e0e0;
+    height: 100vh;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+
+.btn-3d {
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    background-color: #fefeff;
+    color: #078035;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.btn-3d::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: -6px;
+    bottom: -6px;
+    background: #000000;
+    border-radius: 8px;
+    z-index: -1;
+    transition: transform 0.1s;
+}
+
+.btn-3d:hover {
+    transform: translateY(2px);
+    color: #fff;
+    border: 1px solid green;
+}
+
+.btn-3d:hover::before {
+    transform: translateY(-2px);
+}
+
+.round-text {
+    border-radius: 30px;
+}
+
+.st-lists {
+    font-size: medium;
+    color:darkgray
+}

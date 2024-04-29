@@ -1,0 +1,66 @@
+/* Bar Chart */
+.chart {
+  width: 130%; 
+  display: flex;
+  align-items: center; 
+  padding-bottom: 5px;
+  
+}
+
+.chart-label {
+  font-weight: bold;
+  margin-right: 5px; 
+  text-align: left !important;
+}
+
+.bar {
+  height: 30px; /* Adjust bar height */
+  background-color: #ddd;
+  margin-right: 5px; /* Margin between bars */
+ 
+}
+
+.fill-1 {
+  background-color: green;
+  text-align: right ;
+  color: #ddd;
+  font-size: medium;
+}
+
+.fill-2 {
+  background-color: #ffc107;
+  text-align: right;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+/* Pie Chart */
+.pie-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.slice {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 100px, 200px, 0);
+  border-radius: 50%;
+}
+
+.slice-1 {
+  background-color: green;
+}
+
+.slice-2 {
+  background-color: #ffc107;
+}
+
+.slice-3 {
+  background-color: #ff0000;
+}

@@ -1,0 +1,34 @@
+{
+  "Bars": [
+    {
+      "Standard": "ISO 27001",
+      "Gap": 80,
+      "Audit": 40
+    },
+    {
+      "Standard": "ISO 9001",
+      "Gap": 55,
+      "Audit": 35
+    },
+    {
+      "Standard": "ISO 29001",
+      "Gap": 90,
+      "Audit": 85
+    },
+    {
+      "Standard": "ISO 14001",
+      "Gap": 60,
+      "Audit": 37
+    },
+    {
+      "Standard": "ISO 50001",
+      "Gap": 100,
+      "Audit": 70
+    },
+    {
+      "Standard": "ISO 22000",
+      "Gap": 65,
+      "Audit": 40
+    }
+  ]
+}
